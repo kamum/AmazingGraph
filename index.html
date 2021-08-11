@@ -12,16 +12,25 @@
 </head>
 <body>
     <header class="header">
-        <a id="logo" href="/">DevChallenge</a>
-        <nav>
-            <ul class="menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">Features</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
+        <div id="container">
+            <a id="logo" href="/">DevChallenge</a>
+            <div class="menu-section">
+                <div class="menu-toggle">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>    
     </header>
-    <section class="flex">
+    <main class="flex">
         <div id="box-text">
             <h1>Create amazing graphics</h1>
             <h2>Colaborate and create beatiful graphics with your team</h2>
@@ -30,6 +39,8 @@
         <div id="box-image">
             <img src="./assets/team.jpg" alt="Amazing graphics">
         </div>
-    </section>
+    </main>
+
+    <script src="/scripts/scripts.js"></script>
 </body>
 </html>
